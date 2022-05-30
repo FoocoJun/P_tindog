@@ -136,7 +136,10 @@ span {
 
 .card-body {
   font-family: "Montserrat";
-  line-height: 1;
+  line-height: 1.3333333;
+}
+.mastiff {
+  line-height: .75;
 }
 
 /* Call to Action */
