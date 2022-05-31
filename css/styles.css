@@ -65,12 +65,29 @@ span {
 
 /* 2.Title-Image */
 .title-image {
-  width: 45%;
+  width: 11%;
   transform: rotate(25deg);
   position: absolute;
-  top: 2%;
-  right: 30%;
+  right:20%;
 }
+
+@media (max-width: 1020px) {
+  #title {
+    text-align: center;
+  }
+  .title-text{
+    margin: 0 15%;
+  }
+
+  .title-image{
+    position: static;
+    width: 60%;
+    transform: rotate(0);
+
+  }
+
+}
+
 
 /* Features */
 #features {
@@ -145,6 +162,7 @@ span {
 /* Call to Action */
 #cta {
   background-color: #EF8172;
+  color: #fff;
   padding: 5% 15% 1%;
   text-align: center;
 }
